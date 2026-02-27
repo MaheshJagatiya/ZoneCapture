@@ -1,5 +1,7 @@
 Project Name – ZoneCapture
 
+Unity Version - 6000.0.61f1
+
  Core Gameplay Mechanics
 •	As the player moves, a trail (wall) is created behind them.
 •	The player loses a life if:
