@@ -1,6 +1,8 @@
 using UnityEngine;
 using static Cells;
 
+//grid diaply and as per grid cell state color assign
+//start function create pre display cell as per width and hight
 public class GridVisual : MonoBehaviour
 {
     [SerializeField] GameObject cellPrefab;

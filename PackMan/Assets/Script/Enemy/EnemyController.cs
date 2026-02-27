@@ -2,6 +2,9 @@ using System.Collections;
 using UnityEngine;
 using static Cells;
 
+//Enemy Movement Controll
+//Enemy Collider detection
+//Enemy Speed Manage
 public class EnemyController : MonoBehaviour
 {
     public float speed = 3f;

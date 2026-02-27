@@ -2,6 +2,9 @@
 using UnityEngine;
 using static Cells;
 
+
+//calculate capture area and capture area with grid alloction
+//calcluate area cover percentage
 public class AreaCaptureService
 {
     private Cell[,] grid;

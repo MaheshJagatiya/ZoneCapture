@@ -1,12 +1,12 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     [SerializeField] private TrailController trailController;
     [SerializeField] int lives = 3;
- //   [SerializeField] int GameCompletePercentage = 80;
+ 
     private float progress;
 
     private void Awake()

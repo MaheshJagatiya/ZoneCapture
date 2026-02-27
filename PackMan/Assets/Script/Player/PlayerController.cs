@@ -1,5 +1,13 @@
 using UnityEngine;
 
+//manage Player Movement
+//Work both for mobile,Desktop and Editor
+//desktop and editor work with arrow key
+//mobile work with Joystick
+//Player speed can manage by Speed perameter
+//Enemy detection with collider
+//Player face movement with thier direction
+
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] float speed = 5f;

@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Object pool for Poerup create and remove
+
 public class PowerUpPool : MonoBehaviour
 {
     public static PowerUpPool Instance;

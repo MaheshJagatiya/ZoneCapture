@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using static Cells;
 
+//calculate screen are and calculate number of cell
+//create grid with width and hight cell count
+// we can do fix grid also just change in SetupGridSize function
+
 public class GridManager : MonoBehaviour
 {
     public static GridManager Instance;

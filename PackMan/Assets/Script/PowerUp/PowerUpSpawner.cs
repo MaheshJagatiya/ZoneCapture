@@ -2,6 +2,10 @@ using System.Collections;
 using UnityEngine;
 using static Cells;
 
+//Poweup create in non capture area and betwin border area
+//PowerUp spwan in x interval continues
+//Spawn using pool for instatiate
+
 public class PowerUpSpawner : MonoBehaviour
 {
     [SerializeField] float interval = 10f;

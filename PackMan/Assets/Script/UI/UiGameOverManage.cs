@@ -3,6 +3,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Display gameover and level compete image with event
+
 public class UiGameOverManage : MonoBehaviour
 {
     [SerializeField] RectTransform gameOverText;

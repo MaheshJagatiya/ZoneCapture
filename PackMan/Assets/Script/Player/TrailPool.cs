@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Trailpool using Object pool for plater trail
 public class TrailPool : MonoBehaviour
 {
     public static TrailPool Instance;

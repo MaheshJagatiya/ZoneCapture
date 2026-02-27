@@ -1,6 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using static Cells;
+
+//when player move then trail cell create in behind player 
+//if player detct with wall then are capture event occur
+//Clear trail using object pool and reset tail using object pool
+
 public class TrailController : MonoBehaviour
 {
     [SerializeField] Transform trailParent;

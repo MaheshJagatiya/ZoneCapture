@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using static Cells;
 
+//Level wise enemy creation and chanage speed
+//enemy spawn on empty area and border in area
 public class EnemyManager : MonoBehaviour
 {
     public static EnemyManager Instance;

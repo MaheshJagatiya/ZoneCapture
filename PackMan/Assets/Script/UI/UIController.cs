@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 
+//Display Ui Values in screen
 public class UIController : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI livesText;
